@@ -2,6 +2,7 @@ def my own map(array)
   new=[]
   array.length.times{ |element|
     new.push(element)
+    yield new[-1]
   }
 end
 
