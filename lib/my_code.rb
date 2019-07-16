@@ -3,7 +3,6 @@ def my own map(array)
   array.length.times{ |element|
     new.push(element)
   }
-  yield new
 end
 
 def my own reduce(array,start=0)
