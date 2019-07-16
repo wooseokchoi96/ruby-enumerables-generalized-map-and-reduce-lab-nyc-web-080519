@@ -9,6 +9,6 @@ end
 def my own reduce(array,start=0)
   array.length.times{ |element|
     start+=element
+    yield start
   }
-  yield start
 end
